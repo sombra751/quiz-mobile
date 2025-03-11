@@ -1,38 +1,21 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { useRoute, RouteProp } from '@react-navigation/native';
-import { RootStackParamList } from '../../../app-router';
-
-interface Choice {
-  answer: string;
-  isTrue: boolean;
-  isOnHalf: boolean;
-  isOnCallHelp: boolean;
-  probability: number;
-}
-
-interface Question {
-  id: number;
-  question: string;
-  difficulty: number;
-  choices: Choice[];
-}
+import { Question, Choice } from '../../types/types';
 
 interface QuestionCardProps {
   questions: Question[];
+  currentQuestionId: number;
+  questionNumber: number; // Nova prop para o número da questão
 }
 
-type QuestionCardRouteProp = RouteProp<RootStackParamList, 'Questions'>;
-
-const QuestionCard: React.FC<QuestionCardProps> = ({ questions }) => {
-  const route = useRoute<QuestionCardRouteProp>();
-  const questionId = parseInt(route.params.questionId ? String(route.params.questionId) : '1', 10) - 1;
+const QuestionCard: React.FC<QuestionCardProps> = ({ questions, currentQuestionId, questionNumber }) => {
+  const currentQuestion = questions.find(q => q.id === currentQuestionId);
 
   return (
     <View style={styles.container}>
       <View style={styles.card}>
         <Text style={styles.questionText}>
-          {questions[questionId]?.id + 1}) {questions[questionId]?.question}
+          {questionNumber}) {currentQuestion?.question} {/* Exibir o número da questão */}
         </Text>
       </View>
     </View>
@@ -57,7 +40,7 @@ const styles = StyleSheet.create({
   questionText: {
     fontSize: 18,
     fontWeight: 'bold',
-    textAlign: 'center', // Centraliza o texto
+    textAlign: 'center',
   },
 });
 

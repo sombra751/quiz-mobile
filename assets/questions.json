@@ -1,836 +1,282 @@
 {
   "data": {
     "questions": [
-      {
-        "id": 0,
-        "question": "Quem é o maior artilheiro da história da seleção brasileira?",
-        "difficulty": 0,
-        "choices": [
-          {
-            "answer": "Romário",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 15
-          },
-          {
-            "answer": "Pelé",
-            "isTrue": true,
-            "isOnHalf": true,
-            "isOnCallHelp": true,
-            "probability": 70
-          },
-          {
-            "answer": "Ronaldo Fenômeno",
-            "isTrue": false,
-            "isOnHalf": true,
-            "isOnCallHelp": false,
-            "probability": 10
-          },
-          {
-            "answer": "Neymar",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 5
-          }
-        ]
-      },
-      {
-        "id": 1,
-        "question": "Qual país venceu a Copa do Mundo de 2002?",
-        "difficulty": 0,
-        "choices": [
-          {
-            "answer": "Brasil",
-            "isTrue": true,
-            "isOnHalf": true,
-            "isOnCallHelp": true,
-            "probability": 80
-          },
-          {
-            "answer": "Alemanha",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 15
-          },
-          {
-            "answer": "Argentina",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 3
-          },
-          {
-            "answer": "França",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 2
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "question": "Em que ano o Brasil conquistou sua primeira Copa do Mundo?",
-        "difficulty": 0,
-        "choices": [
-          {
-            "answer": "1958",
-            "isTrue": true,
-            "isOnHalf": true,
-            "isOnCallHelp": true,
-            "probability": 85
-          },
-          {
-            "answer": "1962",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 10
-          },
-          {
-            "answer": "1970",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 3
-          },
-          {
-            "answer": "1994",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 2
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "question": "Quem é o jogador mais caro da história do futebol?",
-        "difficulty": 0,
-        "choices": [
-          {
-            "answer": "Cristiano Ronaldo",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 5
-          },
-          {
-            "answer": "Lionel Messi",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 10
-          },
-          {
-            "answer": "Neymar",
-            "isTrue": true,
-            "isOnHalf": true,
-            "isOnCallHelp": true,
-            "probability": 85
-          },
-          {
-            "answer": "Kylian Mbappé",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 0
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "question": "Quem é o técnico da seleção brasileira de futebol?",
-        "difficulty": 0,
-        "choices": [
-          {
-            "answer": "Tite",
-            "isTrue": true,
-            "isOnHalf": true,
-            "isOnCallHelp": true,
-            "probability": 60
-          },
-          {
-            "answer": "Dunga",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 20
-          },
-          {
-            "answer": "Felipão",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 15
-          },
-          {
-            "answer": "Renato Gaúcho",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 5
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "question": "Qual jogador é conhecido como 'Fenômeno' no futebol?",
-        "difficulty": 0,
-        "choices": [
-          {
-            "answer": "Ronaldo",
-            "isTrue": true,
-            "isOnHalf": true,
-            "isOnCallHelp": true,
-            "probability": 85
-          },
-          {
-            "answer": "Neymar",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 10
-          },
-          {
-            "answer": "Romário",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 5
-          },
-          {
-            "answer": "Pelé",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 0
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "question": "Qual é o estádio de futebol mais famoso do Brasil?",
-        "difficulty": 0,
-        "choices": [
-          {
-            "answer": "Maracanã",
-            "isTrue": true,
-            "isOnHalf": true,
-            "isOnCallHelp": true,
-            "probability": 75
-          },
-          {
-            "answer": "Arena Corinthians",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 10
-          },
-          {
-            "answer": "Mineirão",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 10
-          },
-          {
-            "answer": "Morumbi",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 5
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "question": "Quem é o maior artilheiro da história da Copa do Mundo?",
-        "difficulty": 0,
-        "choices": [
-          {
-            "answer": "Marta",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 5
-          },
-          {
-            "answer": "Puskás",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 10
-          },
-          {
-            "answer": "Miroslav Klose",
-            "isTrue": true,
-            "isOnHalf": true,
-            "isOnCallHelp": true,
-            "probability": 80
-          },
-          {
-            "answer": "Ronaldo Fenômeno",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 5
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "question": "Qual seleção venceu a Copa do Mundo de 1998?",
-        "difficulty": 0,
-        "choices": [
-          {
-            "answer": "Brasil",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 10
-          },
-          {
-            "answer": "França",
-            "isTrue": true,
-            "isOnHalf": true,
-            "isOnCallHelp": true,
-            "probability": 75
-          },
-          {
-            "answer": "Argentina",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 10
-          },
-          {
-            "answer": "Alemanha",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 5
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "question": "Qual o clube de futebol mais vitorioso da história do Brasil?",
-        "difficulty": 0,
-        "choices": [
-          {
-            "answer": "Flamengo",
-            "isTrue": true,
-            "isOnHalf": true,
-            "isOnCallHelp": true,
-            "probability": 70
-          },
-          {
-            "answer": "São Paulo",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 15
-          },
-          {
-            "answer": "Palmeiras",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 10
-          },
-          {
-            "answer": "Corinthians",
-            "isTrue": false,
-            "isOnHalf": false,
-            "isOnCallHelp": false,
-            "probability": 5
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "question": "Quem foi o primeiro jogador brasileiro a vencer a Bola de Ouro da FIFA?",
-        "difficulty": 1,
-        "choices": [
-          { "answer": "Ronaldo Fenômeno", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-          { "answer": "Romário", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 15 },
-          { "answer": "Pelé", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Rivaldo", "isTrue": false, "isOnHalf": true, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Kaká", "isTrue": false, "isOnHalf": true, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Neymar", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 }
-        ]
-      },
-      {
-        "id": 11,
-        "question": "Qual time tem o maior número de títulos da Copa do Mundo?",
-        "difficulty": 1,
-        "choices": [
-          { "answer": "Brasil", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 80 },
-          { "answer": "Alemanha", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Argentina", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Itália", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 },
-          { "answer": "França", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 },
-          { "answer": "Uruguai", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 1 }
-        ]
-      },
-      {
-        "id": 12,
-        "question": "Qual é o estádio mais famoso da Inglaterra?",
-        "difficulty": 1,
-        "choices": [
-          { "answer": "Old Trafford", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-          { "answer": "Wembley", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 20 },
-          { "answer": "Anfield", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Stamford Bridge", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Emirates Stadium", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 1 },
-          { "answer": "Etihad Stadium", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 1 }
-        ]
-      },
-      {
-        "id": 13,
-        "question": "Quem foi o artilheiro da Copa do Mundo de 1998?",
-        "difficulty": 1,
-        "choices": [
-          { "answer": "Ronaldo Fenômeno", "isTrue": false, "isOnHalf": true, "isOnCallHelp": false, "probability": 40 },
-          { "answer": "Davor Šuker", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 50 },
-          { "answer": "Thierry Henry", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Zinedine Zidane", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "David Trezeguet", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 1 },
-          { "answer": "Kaká", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 1 }
-        ]
-      },
-      {
-        "id": 14,
-        "question": "Em que ano o Brasil sediou a Copa do Mundo pela última vez?",
-        "difficulty": 1,
-        "choices": [
-          { "answer": "2014", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 80 },
-          { "answer": "2010", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "2006", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "1998", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 },
-          { "answer": "2002", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 },
-          { "answer": "1994", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 1 }
-        ]
-      },
-      {
-        "id": 15,
-        "question": "Qual jogador é o maior artilheiro da história da Copa do Mundo?",
-        "difficulty": 1,
-        "choices": [
-          { "answer": "Pele", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 20 },
-          { "answer": "Marta", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Miroslav Klose", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-          { "answer": "Ronaldo Fenômeno", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Kaká", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 1 },
-          { "answer": "Lionel Messi", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 1 }
-        ]
-      },
-      {
-        "id": 16,
-        "question": "Qual é o time mais vitorioso da Liga dos Campeões da UEFA?",
-        "difficulty": 1,
-        "choices": [
-          { "answer": "Barcelona", "isTrue": false, "isOnHalf": true, "isOnCallHelp": false, "probability": 15 },
-          { "answer": "Bayern de Munique", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Real Madrid", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-          { "answer": "Manchester United", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Liverpool", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "AC Milan", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 }
-        ]
-      },
-      {
-        "id": 17,
-        "question": "Em que país nasceu o jogador Neymar?",
-        "difficulty": 1,
-        "choices": [
-          { "answer": "Argentina", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Brasil", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 80 },
-          { "answer": "Portugal", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Espanha", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "França", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 },
-          { "answer": "Alemanha", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 0 }
-        ]
-      },
-      {
-        "id": 18,
-        "question": "Qual jogador foi conhecido como 'O Rei do Futebol'?",
-        "difficulty": 1,
-        "choices": [
-          { "answer": "Rivaldo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Pelé", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 80 },
-          { "answer": "Romário", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Zico", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 },
-          { "answer": "Sócrates", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 },
-          { "answer": "Ronaldo Fenômeno", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 1 }
-        ]
-      },
-      {
-        "id": 19,
-        "question": "Qual jogador venceu mais vezes a Bola de Ouro?",
-        "difficulty": 1,
-        "choices": [
-          { "answer": "Cristiano Ronaldo", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-          { "answer": "Lionel Messi", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 30 },
-          { "answer": "Michel Platini", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Zinedine Zidane", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Ronaldo Fenômeno", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 1 },
-          { "answer": "Kaká", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 1 }
-        ]
-      },
-      {
-        "id": 20,
-        "question": "Qual país foi campeão da Copa do Mundo de 2010?",
-        "difficulty": 1,
-        "choices": [
-          { "answer": "Alemanha", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Espanha", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-          { "answer": "Brasil", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Argentina", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "França", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Uruguai", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 }
-        ]
-      },
-      {
-        "id": 21,
-        "question": "Qual time venceu a Copa Libertadores da América em 2013?",
-        "difficulty": 1,
-        "choices": [
-          { "answer": "Boca Juniors", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Corinthians", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-          { "answer": "São Paulo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Flamengo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Palmeiras", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Atlético Mineiro", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 }
-        ]
-      },
-      {
-        "id": 22,
-        "question": "Quem é o maior artilheiro da história da seleção brasileira de futebol?",
-        "difficulty": 1,
-        "choices": [
-          { "answer": "Ronaldo Fenômeno", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Pelé", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-          { "answer": "Neymar", "isTrue": false, "isOnHalf": true, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Romário", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Rivaldo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Zico", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 }
-        ]
-      },
-      {
-        "id": 23,
-        "question": "Qual jogador é conhecido como o 'Imperador'?",
-        "difficulty": 1,
-        "choices": [
-          { "answer": "Adriano", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 80 },
-          { "answer": "Ronaldinho Gaúcho", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Kaká", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Roberto Carlos", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Zico", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 1 },
-          { "answer": "Bebeto", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 1 }
-        ]
-      },
-      {
-        "id": 24,
-        "question": "Qual país foi o vencedor da Copa do Mundo de 2006?",
-        "difficulty": 1,
-        "choices": [
-          { "answer": "Alemanha", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 15 },
-          { "answer": "França", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Brasil", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Itália", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-          { "answer": "Argentina", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Uruguai", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 }
-        ]
-      },
-      {
-        "id": 25,
-        "question": "Qual foi o primeiro clube brasileiro a vencer a Copa do Mundo de Clubes da FIFA?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "São Paulo", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 55 },
-          { "answer": "Corinthians", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 12 },
-          { "answer": "Flamengo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 8 },
-          { "answer": "Vasco da Gama", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Palmeiras", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 7 },
-          { "answer": "Grêmio", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 },
-          { "answer": "Internacional", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Atlético Mineiro", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 }
-        ]
-      },
-      {
-        "id": 26,
-        "question": "Quem é o maior artilheiro da história da Copa do Mundo de Futebol?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Ronaldo Fenômeno", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 8 },
-          { "answer": "Marta", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Pele", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Miroslav Klose", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 65 },
-          { "answer": "Cristiano Ronaldo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Lionel Messi", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Gerd Müller", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Zico", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 1 }
-        ]
-      },
-      {
-        "id": 27,
-        "question": "Quem é o jogador com mais títulos de Liga dos Campeões da UEFA?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Cristiano Ronaldo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Lionel Messi", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Paolo Maldini", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Karim Benzema", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 6 },
-          { "answer": "Kenny Dalglish", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 },
-          { "answer": "Alessandro Del Piero", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 },
-          { "answer": "Cristiano Ronaldo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 7 },
-          { "answer": "Gareth Bale", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 }
-        ]
-      },
-      {
-        "id": 28,
-        "question": "Em qual ano a Inglaterra venceu sua única Copa do Mundo de Futebol?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "1962", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 },
-          { "answer": "1966", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 65 },
-          { "answer": "1970", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "1978", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "1986", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "1990", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 },
-          { "answer": "2002", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 8 },
-          { "answer": "2014", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 }
-        ]
-      },
-      {
-        "id": 29,
-        "question": "Qual foi o primeiro time a ganhar o Mundial de Clubes da FIFA na sua versão atual?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "São Paulo", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-          { "answer": "Barcelona", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Real Madrid", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 8 },
-          { "answer": "Corinthians", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Bayern Munique", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Villarreal", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 },
-          { "answer": "Manchester United", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Chelsea", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 }
-        ]
-      },
-      {
-        "id": 30,
-        "question": "Quem é o maior goleador da história da seleção argentina de futebol?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Diego Maradona", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Gabriel Batistuta", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-          { "answer": "Lionel Messi", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Carlos Tevez", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Sergio Agüero", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Javier Saviola", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 },
-          { "answer": "Juan Román Riquelme", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 },
-          { "answer": "Maxi Rodríguez", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 6 }
-        ]
-      },
-      {
-        "id": 31,
-        "question": "Qual país tem o maior número de vitórias na Copa América?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Brasil", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Argentina", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-          { "answer": "Uruguai", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Chile", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 7 },
-          { "answer": "Paraguai", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Colômbia", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Peru", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Equador", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 }
-        ]
-      },
-      {
-        "id": 32,
-        "question": "Quem foi o primeiro jogador a ganhar o prêmio de Melhor Jogador do Mundo da FIFA por mais de uma vez?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Zinedine Zidane", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Ronaldo Fenômeno", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-          { "answer": "Lionel Messi", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Cristiano Ronaldo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 8 },
-          { "answer": "Kaká", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 },
-          { "answer": "Michel Platini", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Johan Cruyff", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Ronaldinho Gaúcho", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 }
-        ]
-      },
-      {
-        "id": 33,
-        "question": "Qual jogador brasileiro é o único a ter vencido as três principais competições europeias: Liga dos Campeões, Copa UEFA e Supercopa da UEFA?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Dunga", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 7 },
-          { "answer": "Rivaldo", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-          { "answer": "Cafu", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Ronaldinho Gaúcho", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 7 },
-          { "answer": "Roberto Carlos", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 8 },
-          { "answer": "Gilberto Silva", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Alex", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Kaká", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 }
-        ]
-      },
-      {
-        "id": 34,
-        "question": "Qual jogador é o único a ter marcado gols em quatro Copas do Mundo consecutivas?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Cristiano Ronaldo", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-          { "answer": "Lionel Messi", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Ronaldo Fenômeno", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Miroslav Klose", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 8 },
-          { "answer": "Gerd Müller", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Thierry Henry", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 },
-          { "answer": "Paolo Maldini", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Karim Benzema", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 }
-        ]
-      },
-      {
-        "id": 35,
-        "question": "Qual jogador é o maior artilheiro da história da Premier League?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Wayne Rooney", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 7 },
-          { "answer": "Sergio Agüero", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 8 },
-          { "answer": "Thierry Henry", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Alan Shearer", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-          { "answer": "Frank Lampard", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Cristiano Ronaldo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 6 },
-          { "answer": "Michael Owen", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Robbie Fowler", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 6 }
-        ]
-      },
-      {
-        "id": 36,
-        "question": "Qual jogador foi eleito o melhor jogador do século pela FIFA em 2000?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Zinedine Zidane", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 6 },
-          { "answer": "Diego Maradona", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 8 },
-          { "answer": "Pelé", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-          { "answer": "Johan Cruyff", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Ronaldo Fenômeno", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 6 },
-          { "answer": "Cristiano Ronaldo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Lionel Messi", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 7 },
-          { "answer": "Marco van Basten", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 }
-        ]
-      },
-      {
-        "id": 37,
-        "question": "Quem foi o primeiro brasileiro a ganhar a Bola de Ouro da FIFA?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Ronaldo Fenômeno", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 55 },
-          { "answer": "Kaká", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Pelé", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 15 },
-          { "answer": "Ronaldinho Gaúcho", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 8 },
-          { "answer": "Cafu", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 },
-          { "answer": "Neymar", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 },
-          { "answer": "Zico", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 },
-          { "answer": "Alex", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 }
-        ]
-      },
-      {
-        "id": 38,
-        "question": "Qual seleção tem o maior número de títulos da Copa das Confederações?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Brasil", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-          { "answer": "Alemanha", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Argentina", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "França", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "México", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 },
-          { "answer": "Itália", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 },
-          { "answer": "Estados Unidos", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Espanha", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 1 }
-        ]
-      },
-      {
-        "id": 39,
-        "question": "Qual jogador tem o recorde de mais gols marcados em uma única temporada da Liga dos Campeões da UEFA?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Cristiano Ronaldo", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-          { "answer": "Lionel Messi", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Karim Benzema", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 6 },
-          { "answer": "Raúl", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 8 },
-          { "answer": "Robert Lewandowski", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Kylian Mbappé", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Neymar", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 },
-          { "answer": "Edinson Cavani", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 }
-        ]
-      },
-      {
-        "id": 40,
-        "question": "Qual foi o primeiro time a conquistar a tríplice coroa europeia (Liga dos Campeões, Liga Nacional e Copa Nacional)?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Barcelona", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Manchester United", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Bayern Munique", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 55 },
-          { "answer": "Real Madrid", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Liverpool", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 6 },
-          { "answer": "Chelsea", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Juventus", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Arsenal", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 }
-        ]
-      },
-      {
-        "id": 41,
-        "question": "Quem é o único goleiro a ter vencido a Bola de Ouro da FIFA?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Lev Yashin", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-          { "answer": "Gianluigi Buffon", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Manuel Neuer", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Iker Casillas", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Peter Schmeichel", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Oliver Kahn", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Edwin van der Sar", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Thibaut Courtois", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 }
-        ]
-      },
-      {
-        "id": 42,
-        "question": "Qual seleção venceu a primeira Copa do Mundo de Futebol?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Brasil", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 8 },
-          { "answer": "Argentina", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 6 },
-          { "answer": "Uruguai", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-          { "answer": "Alemanha", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "França", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Itália", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 7 },
-          { "answer": "Inglaterra", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 },
-          { "answer": "Espanha", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 }
-        ]
-      },
-      {
-        "id": 43,
-        "question": "Qual é o maior estádio do Brasil em capacidade?",
-        "difficulty": 2,
-        "choices": [
-          { "answer": "Maracanã", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 65 },
-          { "answer": "Mineirão", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-          { "answer": "Morumbi", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Arena Corinthians", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 },
-          { "answer": "Beira-Rio", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 3 },
-          { "answer": "Estádio do Maracanã", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 5 },
-          { "answer": "Estádio Olímpico", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 2 },
-          { "answer": "Estádio Palestra Itália", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 4 }
-        ]
-      }
+  {
+    "id": 1,
+    "question": "Em que ano a Ponte Preta foi fundada?",
+    "difficulty": 1,
+    "choices": [
+      { "answer": "1900", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 25 },
+      { "answer": "1905", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 50 },
+      { "answer": "1910", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 15 },
+      { "answer": "1915", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Qual é o apelido mais conhecido da Ponte Preta?",
+    "difficulty": 1,
+    "choices": [
+      { "answer": "Leão da Paulista", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Macaca", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "Fantasma do Interior", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Galo da Serra", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Quem é considerado o fundador da Ponte Preta?",
+    "difficulty": 2,
+    "choices": [
+      { "answer": "Miguel do Carmo", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
+      { "answer": "Pedro Lessa", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 15 },
+      { "answer": "Antônio Leme", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 15 },
+      { "answer": "Francisco Dalmo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Qual é a cidade de origem da Ponte Preta?",
+    "difficulty": 1,
+    "choices": [
+      { "answer": "São Paulo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Sorocaba", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Campinas", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "Ribeirão Preto", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Qual é o nome do estádio da Ponte Preta?",
+    "difficulty": 1,
+    "choices": [
+      { "answer": "Brinco de Ouro", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Moisés Lucarelli", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "Arena Fonte Nova", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Pacaembu", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Qual o apelido do estádio da Ponte Preta?",
+    "difficulty": 2,
+    "choices": [
+      { "answer": "Gigante do Interior", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Majestoso", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
+      { "answer": "Colosso do Interior", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 20 },
+      { "answer": "Toca da Macaca", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Em que ano o Estádio Moisés Lucarelli foi inaugurado?",
+    "difficulty": 2,
+    "choices": [
+      { "answer": "1948", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
+      { "answer": "1950", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 20 },
+      { "answer": "1955", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "1962", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Em qual ano a Ponte Preta chegou à final da Copa Sul-Americana?",
+    "difficulty": 2,
+    "choices": [
+      { "answer": "2011", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "2013", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "2015", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "2017", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Qual time a Ponte Preta enfrentou na final da Copa Sul-Americana de 2013?",
+    "difficulty": 3,
+    "choices": [
+      { "answer": "Boca Juniors", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Atlético Nacional", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Lanús", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "River Plate", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Em que ano a Ponte Preta foi vice-campeã do Campeonato Paulista?",
+    "difficulty": 2,
+    "choices": [
+      { "answer": "1977", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
+      { "answer": "1985", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 20 },
+      { "answer": "1998", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "2017", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Qual é o maior rival da Ponte Preta?",
+    "difficulty": 1,
+    "choices": [
+      { "answer": "Palmeiras", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "São Paulo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Guarani", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "Santos", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Qual é o nome do clássico entre Ponte Preta e Guarani?",
+    "difficulty": 2,
+    "choices": [
+      { "answer": "Derby Paulista", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Derby Campineiro", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "Clássico da Mogiana", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Clássico do Interior", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Qual foi a maior goleada da Ponte Preta sobre o Guarani no clássico?",
+    "difficulty": 3,
+    "choices": [
+      { "answer": "5x0", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "6x1", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "7x2", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "8x0", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Qual desses jogadores é considerado um dos maiores ídolos da Ponte Preta?",
+    "difficulty": 2,
+    "choices": [
+      { "answer": "Dicá", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
+      { "answer": "Marcelinho Carioca", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 20 },
+      { "answer": "Neymar", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Zico", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Qual goleiro da Ponte Preta se destacou e depois fez história no São Paulo?",
+    "difficulty": 3,
+    "choices": [
+      { "answer": "Roger", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Waldir Peres", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "Cássio", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Taffarel", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Qual desses atacantes brilhou pela Ponte Preta antes de se tornar ídolo do Corinthians?",
+    "difficulty": 3,
+    "choices": [
+      { "answer": "Jô", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Luis Fabiano", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "Romarinho", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Edílson", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Quem foi o artilheiro da Ponte Preta na Copa Sul-Americana de 2013?",
+    "difficulty": 3,
+    "choices": [
+      { "answer": "William", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "Rildo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Roger", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Ferron", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Em que ano a Ponte Preta disputou sua primeira Série A do Brasileirão?",
+    "difficulty": 2,
+    "choices": [
+      { "answer": "1971", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
+      { "answer": "1977", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 20 },
+      { "answer": "1981", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "1990", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Em qual ano a Ponte Preta foi semifinalista do Campeonato Brasileiro?",
+    "difficulty": 3,
+    "choices": [
+      { "answer": "1977", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "1981", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "1995", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "2000", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Contra qual time a Ponte Preta foi rebaixada pela última vez para a Série B do Campeonato Brasileiro?",
+    "difficulty": 3,
+    "choices": [
+      { "answer": "Vasco", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "América-MG", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Fluminense", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "Bahia", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Qual empresa já foi patrocinadora master da Ponte Preta?",
+    "difficulty": 2,
+    "choices": [
+      { "answer": "Kalunga", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
+      { "answer": "Coca-Cola", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 20 },
+      { "answer": "Samsung", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Brahma", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "A Ponte Preta foi o primeiro time do Brasil a…",
+    "difficulty": 2,
+    "choices": [
+      { "answer": "Jogar na Europa", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Utilizar um uniforme preto", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Ter um jogador negro", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "Jogar com 12 jogadores", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Qual é a maior torcida organizada da Ponte Preta?",
+    "difficulty": 2,
+    "choices": [
+      { "answer": "Independente", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Mancha Alvinegra", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "Torcida Jovem", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Serponte", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Qual famoso técnico iniciou sua carreira como jogador na Ponte Preta?",
+    "difficulty": 3,
+    "choices": [
+      { "answer": "Tite", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Muricy Ramalho", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Vanderlei Luxemburgo", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "Abel Braga", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Qual desses títulos a Ponte Preta já conquistou?",
+    "difficulty": 2,
+    "choices": [
+      { "answer": "Copa do Brasil", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Campeonato Paulista", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+      { "answer": "Campeonato Paulista do Interior", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+      { "answer": "Copa Libertadores", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+    ]
+  }
+
     ]
   }
 }

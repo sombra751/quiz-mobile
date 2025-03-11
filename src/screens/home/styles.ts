@@ -9,8 +9,10 @@ const styles = StyleSheet.create({
     backgroundColor: "#f0f0f0",
   },
   startButton: {
-    backgroundColor: "#3498db",    padding: 20,
+    backgroundColor: "#3498db",
+    padding: 20,
     borderRadius: 10,
+    marginTop: 10
   },
   startText: {
     color: "white",
@@ -38,7 +40,6 @@ const styles = StyleSheet.create({
     height: 128,
     marginTop: 20,
   },
-
   appBgColor: {
     minHeight: "100%",
     minWidth: "100%",
@@ -48,7 +49,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     flexDirection: "column",
-    width: '100%', 
+    width: '100%',
   },
   h1: {
     fontSize: 32,
@@ -168,11 +169,11 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     textAlign: "center",
     justifyContent: 'center',
-    paddingLeft: 30,  
-    paddingRight: 30,  
-    paddingTop: 10,  
-    paddingBottom: 10,  
-    fontSize: 20, 
+    paddingLeft: 30,
+    paddingRight: 30,
+    paddingTop: 10,
+    paddingBottom: 10,
+    fontSize: 20,
     fontWeight: "600",
     color: "#ffffff",
   },
@@ -182,6 +183,14 @@ const styles = StyleSheet.create({
     right: 0,
     top: 0,
     bottom: 0,
+  },
+  overlay: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)', // Cor cinza escura com 50% de opacidade
   },
 });
 

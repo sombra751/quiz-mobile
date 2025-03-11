@@ -6,7 +6,6 @@ import styles from './styles';
 import { createStackNavigator } from '@react-navigation/stack';
 import { LinearGradient } from 'expo-linear-gradient';
 
-
 import jgImage from '../../../assets/images/bg/jg.png';
 import bgImage from '../../../assets/images/bg/bg.jpg';
 
@@ -34,24 +33,27 @@ const Home = () => {
       style={[styles.container, styles.appBgColor]}
       imageStyle={{ resizeMode: 'cover' }}
     >
-       <LinearGradient
+      <View style={styles.overlay} /> {/* Camada cinza escura */}
+      {/* <LinearGradient
         colors={['rgba(0, 0, 0, 0.8)', 'transparent']}
         style={styles.gradient}
-      />
+      /> */}
       <View style={styles.home}>
+
+        <Image source={jgImage} style={styles.image} />
+
+        <View style={styles.aboutContainer}>
+          <Text style={[styles.title, styles.h1]}>
+            Quiz do Milhão: Futebol EditionS
+          </Text>
+          <Text style={[styles.description, styles.p]}>
+            É um jogo de perguntas e respostas inspirado no clássico fSSSSormato do
+            Show do Milhão, mas totalmente focado no mundo do futebol...
+          </Text>
+        </View>
         <TouchableOpacity onPress={handleOpenSignIn} style={styles.homeStart}>
           <Text style={styles.startText}>START</Text>
         </TouchableOpacity>
-        <View style={styles.aboutContainer}>
-          <Text style={[styles.title, styles.h1]}>
-            Quiz do Milhão: Futebol Edition
-          </Text>
-          <Text style={[styles.description, styles.p]}>
-            É um jogo de perguntas e respostas inspirado no clássico formato do
-            Show do Milhão, mas totalmente focado no mundo do futebol...
-          </Text>
-          <Image source={jgImage} style={styles.image} />
-        </View>
         <Guest open={openSignIn} onClose={handleCloseSignIn} onStartGame={startGame} display={true} />
       </View>
     </ImageBackground>

@@ -5,38 +5,38 @@ import QuestionCard from '../../components/question-card';
 import QuestionsList from '../../components/question-list';
 import HelperCard from '../../components/help-card';
 import { useDispatch } from 'react-redux';
-import { useNavigation, NavigationProp } from '@react-navigation/native';
+import { useNavigation, NavigationProp, useRoute, RouteProp } from '@react-navigation/native';
 import { resetChartData } from '../../store/actions';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { RootStackParamList } from '../../../app-router';
 import { LinearGradient } from 'expo-linear-gradient';
+import { Question, Choice } from '../../types/types';
 
 import bgImage from '../../../assets/images/bg/bg.jpg';
 
+type QuestionScreenRouteProp = RouteProp<RootStackParamList, 'Questions'>;
 
-interface Choice {
-  answer: string;
-  isTrue: boolean;
-  isOnHalf: boolean;
-  isOnCallHelp: boolean;
-  probability: number;
-}
-
-interface Question {
-  id: number;
-  question: string;
-  difficulty: number;
-  choices: Choice[];
-}
-
-const Question: React.FC = () => {
-  const [questions, setQuestions] = useState<Question[]>([]); // Inicializado como um array de Question
+const Questions: React.FC = () => {
+  const [questions, setQuestions] = useState<Question[]>([]);
   const dispatch = useDispatch();
   const navigation = useNavigation<NavigationProp<RootStackParamList>>();
-  const [timeLeft, setTimeLeft] = useState(60);
+  const [timeLeft, setTimeLeft] = useState(30); // tempo em segundos
+  const route = useRoute<QuestionScreenRouteProp>();
+  const { questionId } = route.params;
 
   useEffect(() => {
     setQuestions(questionsData.data.questions);
+    const timer = setInterval(() => {
+      setTimeLeft((prevTime) => {
+        if (prevTime <= 1) {
+          clearInterval(timer);
+          return 0;
+        }
+        return prevTime - 1;
+      });
+    }, 1000);
+
+    return () => clearInterval(timer);
   }, []);
 
   const childprops = {
@@ -49,37 +49,42 @@ const Question: React.FC = () => {
     navigation.navigate('Home');
   };
 
+  const formatTime = (time: number): string => {
+    return `${time < 10 ? `0${time}` : time}`;
+  };
+
   return (
     <ImageBackground
-    source={bgImage}
-    style={[styles.container, styles.appBgColor]}
-    imageStyle={{ resizeMode: 'cover' }}
-  >
-     <LinearGradient
-      colors={['rgba(0, 0, 0, 0.8)', 'transparent']}
-      style={styles.gradient}
-    />
-    <View style={styles.container}>
-      <View style={styles.timerContainer}>
-        <Text style={styles.timer}>{timeLeft}s</Text>
-      </View>
-      <TouchableOpacity style={styles.homeButton} onPress={handleGoHome}>
-        <Icon name="home" size={30} color="white" />
-      </TouchableOpacity>
-      <View style={styles.content}>
-        {questions && (
-          <View style={styles.questionContainer}>
-            <QuestionCard questions={questions} />
-            <QuestionsList questions={questions} {...childprops} />
+      source={bgImage}
+      style={[styles.container, styles.appBgColor]}
+      imageStyle={{ resizeMode: 'cover' }}
+    >
+      <LinearGradient
+        colors={['rgba(0, 0, 0, 0.8)', 'transparent']}
+        style={styles.gradient}
+      />
+      <View style={styles.container}>
+        <View style={styles.timerContainer}>
+          <View style={styles.timerBoard}>
+            <Text style={styles.timerText}>{formatTime(timeLeft)}</Text>
           </View>
-        )}
-        <View style={styles.helperContainer}>
-          <HelperCard />
+        </View>
+        <TouchableOpacity style={styles.homeButton} onPress={handleGoHome}>
+          <Icon name="home" size={30} color="white" />
+        </TouchableOpacity>
+        <View style={styles.content}>
+          {questions && (
+            <View style={styles.questionContainer}>
+              <QuestionCard questions={questions} currentQuestionId={questionId} questionNumber={questionId} />
+              <QuestionsList questions={questions} {...childprops} />
+            </View>
+          )}
+          <View style={styles.helperContainer}>
+            <HelperCard />
+          </View>
         </View>
       </View>
-    </View>
-        </ImageBackground>
-    
+    </ImageBackground>
   );
 };
 
@@ -90,17 +95,26 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
-    // backgroundColor: '#f0f0f0',
     padding: 20,
   },
   timerContainer: {
     alignItems: 'center',
     marginBottom: 20,
   },
-  timer: {
-    fontSize: 24,
+  timerBoard: {
+    backgroundColor: '#333', // Dark gray background
+    paddingVertical: 10, // Adjust vertical padding
+    paddingHorizontal: 20, // Adjust horizontal padding
+    borderRadius: 20, // Rounded corners
+    alignItems: 'center',
+    borderWidth: 2,
+    borderColor: '#555', // Slightly lighter border
+  },
+  timerText: {
+    fontSize: 28, // Adjust font size
     fontWeight: 'bold',
-    color: 'white'
+    color: '#fff',
+    fontFamily: 'monospace',
   },
   homeButton: {
     backgroundColor: '#65B307',
@@ -113,10 +127,8 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'flex-start',
-
     alignItems: 'center',
     width: '100%',
-
   },
   questionContainer: {
     width: '100%',
@@ -133,4 +145,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Question;
+export default Questions;
