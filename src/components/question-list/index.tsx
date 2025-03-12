@@ -10,12 +10,13 @@ import { Question, Choice } from '../../types/types';
 
 interface QuestionsListProps {
   questions: Question[];
+  userName: string; // Adicionamos a prop userName
 }
 
 type QuestionScreenRouteProp = RouteProp<RootStackParamList, 'Questions'>;
 type QuestionScreenNavigationProp = NavigationProp<RootStackParamList, 'Questions'>;
 
-const QuestionsList: React.FC<QuestionsListProps> = ({ questions }) => {
+const QuestionsList: React.FC<QuestionsListProps> = ({ questions, userName }) => {
   const route = useRoute<QuestionScreenRouteProp>();
   const navigation = useNavigation<QuestionScreenNavigationProp>();
   const { questionId } = route.params;
@@ -51,10 +52,15 @@ const QuestionsList: React.FC<QuestionsListProps> = ({ questions }) => {
 
     const nextQuestion = questions.find(q => q.id === next);
     if (nextQuestion) {
-      navigation.navigate('Questions', { questionId: next });
+      // Navega para a próxima questão, passando o userName
+      navigation.navigate('Questions', { questionId: next, userName });
     } else {
-      // Se não houver mais perguntas, navegue para uma tela de conclusão
-      navigation.navigate('Home');
+      // Se não houver mais perguntas, navegue para a tela final
+      navigation.navigate('Finish', {
+        total: questions.length.toString(), // Converte para string
+        points: questions.filter(q => q.choices.some(c => c.isTrue)).length.toString(), // Converte para string
+        userName,
+      });
     }
   };
 

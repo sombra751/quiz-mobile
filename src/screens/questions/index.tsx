@@ -21,7 +21,7 @@ const Questions: React.FC = () => {
   const dispatch = useDispatch();
   const navigation = useNavigation<NavigationProp<RootStackParamList>>();
   const route = useRoute<QuestionScreenRouteProp>();
-  const { questionId } = route.params;
+  const { questionId, userName } = route.params; // Recebemos o nome do usuário
 
   useEffect(() => {
     setQuestions(questionsData.data.questions);
@@ -47,7 +47,7 @@ const Questions: React.FC = () => {
           {questions && (
             <View style={styles.questionContainer}>
               <QuestionCard questions={questions} currentQuestionId={questionId} questionNumber={questionId} />
-              <QuestionsList questions={questions} />
+              <QuestionsList questions={questions} userName={userName} /> {/* Passamos o nome do usuário */}
             </View>
           )}
           <View style={styles.helperContainer}>

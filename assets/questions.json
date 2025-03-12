@@ -168,7 +168,7 @@
       },
       {
         "id": 16,
-        "question": "Qual desses atacantes brilhou pela Ponte Preta antes de se tornar ídolo do Corinthians?",
+        "question": "Qual desses atacantes brilhou pela Ponte Preta antes de se tornar ídolo do São Paulo?",
         "difficulty": 3,
         "choices": [
           { "answer": "Jô", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },

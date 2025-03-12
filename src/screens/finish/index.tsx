@@ -17,10 +17,10 @@ export function Finish() {
   return (
     <View style={styles.container}>
       <View style={styles.message}>
-        <Stars />
+        {/* <Stars /> */}
         
         <Text style={styles.title}>
-          Parabéns, {userName}! {/* Exibimos o nome do usuário */}
+          Parabéns! {/* Exibimos o nome do usuário */}
         </Text>
 
         <Text style={styles.subtitle}>
