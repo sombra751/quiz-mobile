@@ -36,8 +36,8 @@ const styles = StyleSheet.create({
     // height: 300
   },
   image: {
-    width: 128,
-    height: 128,
+    width: '85%',
+    height: 120,
     marginTop: 20,
   },
   appBgColor: {
@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#e0f7fa",
   },
   homeStart: {
-    backgroundColor: "#e70707",
+    backgroundColor: "#ad8056",
     borderRadius: 8,
     textAlign: "center",
     justifyContent: 'center',
@@ -190,7 +190,7 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: 'rgba(0, 0, 0, 0.5)', // Cor cinza escura com 50% de opacidade
+    backgroundColor: 'rgba(0, 0, 0, 0.7)', // Cor cinza escura com 50% de opacidade
   },
 });
 

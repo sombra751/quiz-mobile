@@ -10,9 +10,9 @@ import { resetChartData } from '../../store/actions';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { RootStackParamList } from '../../../app-router';
 import { LinearGradient } from 'expo-linear-gradient';
-import { Question, Choice } from '../../types/types';
 
 import bgImage from '../../../assets/images/bg/bg.jpg';
+import { Question } from '../../types/types';
 
 type QuestionScreenRouteProp = RouteProp<RootStackParamList, 'Questions'>;
 
@@ -20,37 +20,16 @@ const Questions: React.FC = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
   const dispatch = useDispatch();
   const navigation = useNavigation<NavigationProp<RootStackParamList>>();
-  const [timeLeft, setTimeLeft] = useState(30); // tempo em segundos
   const route = useRoute<QuestionScreenRouteProp>();
   const { questionId } = route.params;
 
   useEffect(() => {
     setQuestions(questionsData.data.questions);
-    const timer = setInterval(() => {
-      setTimeLeft((prevTime) => {
-        if (prevTime <= 1) {
-          clearInterval(timer);
-          return 0;
-        }
-        return prevTime - 1;
-      });
-    }, 1000);
-
-    return () => clearInterval(timer);
   }, []);
-
-  const childprops = {
-    timeLeft,
-    setTimeLeft,
-  };
 
   const handleGoHome = () => {
     dispatch(resetChartData());
     navigation.navigate('Home');
-  };
-
-  const formatTime = (time: number): string => {
-    return `${time < 10 ? `0${time}` : time}`;
   };
 
   return (
@@ -59,16 +38,8 @@ const Questions: React.FC = () => {
       style={[styles.container, styles.appBgColor]}
       imageStyle={{ resizeMode: 'cover' }}
     >
-      <LinearGradient
-        colors={['rgba(0, 0, 0, 0.8)', 'transparent']}
-        style={styles.gradient}
-      />
+       <View style={styles.overlay} />
       <View style={styles.container}>
-        <View style={styles.timerContainer}>
-          <View style={styles.timerBoard}>
-            <Text style={styles.timerText}>{formatTime(timeLeft)}</Text>
-          </View>
-        </View>
         <TouchableOpacity style={styles.homeButton} onPress={handleGoHome}>
           <Icon name="home" size={30} color="white" />
         </TouchableOpacity>
@@ -76,7 +47,7 @@ const Questions: React.FC = () => {
           {questions && (
             <View style={styles.questionContainer}>
               <QuestionCard questions={questions} currentQuestionId={questionId} questionNumber={questionId} />
-              <QuestionsList questions={questions} {...childprops} />
+              <QuestionsList questions={questions} />
             </View>
           )}
           <View style={styles.helperContainer}>
@@ -97,27 +68,8 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 20,
   },
-  timerContainer: {
-    alignItems: 'center',
-    marginBottom: 20,
-  },
-  timerBoard: {
-    backgroundColor: '#333', // Dark gray background
-    paddingVertical: 10, // Adjust vertical padding
-    paddingHorizontal: 20, // Adjust horizontal padding
-    borderRadius: 20, // Rounded corners
-    alignItems: 'center',
-    borderWidth: 2,
-    borderColor: '#555', // Slightly lighter border
-  },
-  timerText: {
-    fontSize: 28, // Adjust font size
-    fontWeight: 'bold',
-    color: '#fff',
-    fontFamily: 'monospace',
-  },
   homeButton: {
-    backgroundColor: '#65B307',
+    backgroundColor: '#ad8056',
     padding: 10,
     borderRadius: 30,
     alignSelf: 'flex-start',
@@ -142,6 +94,14 @@ const styles = StyleSheet.create({
     right: 0,
     top: 0,
     bottom: 0,
+  },
+  overlay: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: 'rgba(0, 0, 0, 0.7)', // Cor cinza escura com 50% de opacidade
   },
 });
 

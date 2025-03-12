@@ -13,7 +13,7 @@ const ErrorDialog: React.FC<Props> = ({ dialog, score, onClose }) => {
 
   const handleWrongQuestion = () => {
     onClose();
-    navigation.navigate('Home'); // Navegue para a tela 'Home'
+    navigation.navigate("Home"); // Navegue para a tela 'Home'
   };
 
   return (
@@ -26,7 +26,7 @@ const ErrorDialog: React.FC<Props> = ({ dialog, score, onClose }) => {
       <View style={styles.centeredView}>
         <View style={styles.modalView}>
           <Text style={styles.modalTitle}>
-            Que pena, você errou! ({score} / 15)
+            Que pena, você errou! ({score} / 25)
           </Text>
           <Text style={styles.modalText}>
             Não fique triste, tente novamente e sinta-se feliz por chegar até aqui. Você é incrível!

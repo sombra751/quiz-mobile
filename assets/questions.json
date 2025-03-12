@@ -1,282 +1,281 @@
 {
   "data": {
     "questions": [
-  {
-    "id": 1,
-    "question": "Em que ano a Ponte Preta foi fundada?",
-    "difficulty": 1,
-    "choices": [
-      { "answer": "1900", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 25 },
-      { "answer": "1905", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 50 },
-      { "answer": "1910", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 15 },
-      { "answer": "1915", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 2,
-    "question": "Qual é o apelido mais conhecido da Ponte Preta?",
-    "difficulty": 1,
-    "choices": [
-      { "answer": "Leão da Paulista", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Macaca", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "Fantasma do Interior", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Galo da Serra", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 3,
-    "question": "Quem é considerado o fundador da Ponte Preta?",
-    "difficulty": 2,
-    "choices": [
-      { "answer": "Miguel do Carmo", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-      { "answer": "Pedro Lessa", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 15 },
-      { "answer": "Antônio Leme", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 15 },
-      { "answer": "Francisco Dalmo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 4,
-    "question": "Qual é a cidade de origem da Ponte Preta?",
-    "difficulty": 1,
-    "choices": [
-      { "answer": "São Paulo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Sorocaba", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Campinas", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "Ribeirão Preto", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 5,
-    "question": "Qual é o nome do estádio da Ponte Preta?",
-    "difficulty": 1,
-    "choices": [
-      { "answer": "Brinco de Ouro", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Moisés Lucarelli", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "Arena Fonte Nova", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Pacaembu", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 6,
-    "question": "Qual o apelido do estádio da Ponte Preta?",
-    "difficulty": 2,
-    "choices": [
-      { "answer": "Gigante do Interior", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Majestoso", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-      { "answer": "Colosso do Interior", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 20 },
-      { "answer": "Toca da Macaca", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 7,
-    "question": "Em que ano o Estádio Moisés Lucarelli foi inaugurado?",
-    "difficulty": 2,
-    "choices": [
-      { "answer": "1948", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-      { "answer": "1950", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 20 },
-      { "answer": "1955", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "1962", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 8,
-    "question": "Em qual ano a Ponte Preta chegou à final da Copa Sul-Americana?",
-    "difficulty": 2,
-    "choices": [
-      { "answer": "2011", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "2013", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "2015", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "2017", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 9,
-    "question": "Qual time a Ponte Preta enfrentou na final da Copa Sul-Americana de 2013?",
-    "difficulty": 3,
-    "choices": [
-      { "answer": "Boca Juniors", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Atlético Nacional", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Lanús", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "River Plate", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 10,
-    "question": "Em que ano a Ponte Preta foi vice-campeã do Campeonato Paulista?",
-    "difficulty": 2,
-    "choices": [
-      { "answer": "1977", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-      { "answer": "1985", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 20 },
-      { "answer": "1998", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "2017", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 11,
-    "question": "Qual é o maior rival da Ponte Preta?",
-    "difficulty": 1,
-    "choices": [
-      { "answer": "Palmeiras", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "São Paulo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Guarani", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "Santos", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 12,
-    "question": "Qual é o nome do clássico entre Ponte Preta e Guarani?",
-    "difficulty": 2,
-    "choices": [
-      { "answer": "Derby Paulista", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Derby Campineiro", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "Clássico da Mogiana", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Clássico do Interior", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 13,
-    "question": "Qual foi a maior goleada da Ponte Preta sobre o Guarani no clássico?",
-    "difficulty": 3,
-    "choices": [
-      { "answer": "5x0", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "6x1", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "7x2", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "8x0", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 }
-    ]
-  },
-  {
-    "id": 14,
-    "question": "Qual desses jogadores é considerado um dos maiores ídolos da Ponte Preta?",
-    "difficulty": 2,
-    "choices": [
-      { "answer": "Dicá", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-      { "answer": "Marcelinho Carioca", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 20 },
-      { "answer": "Neymar", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Zico", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 15,
-    "question": "Qual goleiro da Ponte Preta se destacou e depois fez história no São Paulo?",
-    "difficulty": 3,
-    "choices": [
-      { "answer": "Roger", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Waldir Peres", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "Cássio", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Taffarel", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 16,
-    "question": "Qual desses atacantes brilhou pela Ponte Preta antes de se tornar ídolo do Corinthians?",
-    "difficulty": 3,
-    "choices": [
-      { "answer": "Jô", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Luis Fabiano", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "Romarinho", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Edílson", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 17,
-    "question": "Quem foi o artilheiro da Ponte Preta na Copa Sul-Americana de 2013?",
-    "difficulty": 3,
-    "choices": [
-      { "answer": "William", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "Rildo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Roger", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Ferron", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 18,
-    "question": "Em que ano a Ponte Preta disputou sua primeira Série A do Brasileirão?",
-    "difficulty": 2,
-    "choices": [
-      { "answer": "1971", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-      { "answer": "1977", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 20 },
-      { "answer": "1981", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "1990", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 19,
-    "question": "Em qual ano a Ponte Preta foi semifinalista do Campeonato Brasileiro?",
-    "difficulty": 3,
-    "choices": [
-      { "answer": "1977", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "1981", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "1995", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "2000", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 20,
-    "question": "Contra qual time a Ponte Preta foi rebaixada pela última vez para a Série B do Campeonato Brasileiro?",
-    "difficulty": 3,
-    "choices": [
-      { "answer": "Vasco", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "América-MG", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Fluminense", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "Bahia", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 21,
-    "question": "Qual empresa já foi patrocinadora master da Ponte Preta?",
-    "difficulty": 2,
-    "choices": [
-      { "answer": "Kalunga", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 60 },
-      { "answer": "Coca-Cola", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 20 },
-      { "answer": "Samsung", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Brahma", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 22,
-    "question": "A Ponte Preta foi o primeiro time do Brasil a…",
-    "difficulty": 2,
-    "choices": [
-      { "answer": "Jogar na Europa", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Utilizar um uniforme preto", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Ter um jogador negro", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "Jogar com 12 jogadores", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 23,
-    "question": "Qual é a maior torcida organizada da Ponte Preta?",
-    "difficulty": 2,
-    "choices": [
-      { "answer": "Independente", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Mancha Alvinegra", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "Torcida Jovem", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Serponte", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 24,
-    "question": "Qual famoso técnico iniciou sua carreira como jogador na Ponte Preta?",
-    "difficulty": 3,
-    "choices": [
-      { "answer": "Tite", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Muricy Ramalho", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Vanderlei Luxemburgo", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "Abel Braga", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  },
-  {
-    "id": 25,
-    "question": "Qual desses títulos a Ponte Preta já conquistou?",
-    "difficulty": 2,
-    "choices": [
-      { "answer": "Copa do Brasil", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Campeonato Paulista", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
-      { "answer": "Campeonato Paulista do Interior", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
-      { "answer": "Copa Libertadores", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
-    ]
-  }
-
+      {
+        "id": 1,
+        "question": "Em que ano a Ponte Preta foi fundada?",
+        "difficulty": 1,
+        "choices": [
+          { "answer": "1900", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "1905", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "1910", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "1915", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual é o apelido mais conhecido da Ponte Preta?",
+        "difficulty": 1,
+        "choices": [
+          { "answer": "Leão da Paulista", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Macaca", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Fantasma do Interior", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Galo da Serra", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Quem é considerado o fundador da Ponte Preta?",
+        "difficulty": 2,
+        "choices": [
+          { "answer": "Miguel do Carmo", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Pedro Lessa", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Antônio Leme", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Francisco Dalmo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Qual é a cidade de origem da Ponte Preta?",
+        "difficulty": 1,
+        "choices": [
+          { "answer": "São Paulo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Sorocaba", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Campinas", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Ribeirão Preto", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual é o nome do estádio da Ponte Preta?",
+        "difficulty": 1,
+        "choices": [
+          { "answer": "Brinco de Ouro", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Moisés Lucarelli", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Arena Fonte Nova", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Pacaembu", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Qual o apelido do estádio da Ponte Preta?",
+        "difficulty": 2,
+        "choices": [
+          { "answer": "Gigante do Interior", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Majestoso", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Colosso do Interior", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Toca da Macaca", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Em que ano o Estádio Moisés Lucarelli foi inaugurado?",
+        "difficulty": 2,
+        "choices": [
+          { "answer": "1948", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "1950", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "1955", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "1962", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Em qual ano a Ponte Preta chegou à final da Copa Sul-Americana?",
+        "difficulty": 2,
+        "choices": [
+          { "answer": "2011", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "2013", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "2015", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "2017", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Qual time a Ponte Preta enfrentou na final da Copa Sul-Americana de 2013?",
+        "difficulty": 3,
+        "choices": [
+          { "answer": "Boca Juniors", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Atlético Nacional", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Lanús", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "River Plate", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Em que ano a Ponte Preta foi vice-campeã do Campeonato Paulista?",
+        "difficulty": 2,
+        "choices": [
+          { "answer": "1977", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "1985", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "1998", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "2017", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 11,
+        "question": "Qual é o maior rival da Ponte Preta?",
+        "difficulty": 1,
+        "choices": [
+          { "answer": "Palmeiras", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "São Paulo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Guarani", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Santos", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 12,
+        "question": "Qual é o nome do clássico entre Ponte Preta e Guarani?",
+        "difficulty": 2,
+        "choices": [
+          { "answer": "Derby Paulista", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Derby Campineiro", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Clássico da Mogiana", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Clássico do Interior", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 13,
+        "question": "Qual foi a maior goleada da Ponte Preta sobre o Guarani no clássico?",
+        "difficulty": 3,
+        "choices": [
+          { "answer": "4x0", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "6x1", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "7x2", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "8x0", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 14,
+        "question": "Qual desses jogadores é considerado um dos maiores ídolos da Ponte Preta?",
+        "difficulty": 2,
+        "choices": [
+          { "answer": "Dicá", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Marcelinho Carioca", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Neymar", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Zico", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 15,
+        "question": "Qual goleiro da Ponte Preta se destacou e depois fez história no São Paulo?",
+        "difficulty": 3,
+        "choices": [
+          { "answer": "Roger", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Waldir Peres", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Cássio", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Taffarel", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 16,
+        "question": "Qual desses atacantes brilhou pela Ponte Preta antes de se tornar ídolo do Corinthians?",
+        "difficulty": 3,
+        "choices": [
+          { "answer": "Jô", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Luis Fabiano", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Romarinho", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Edílson", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 17,
+        "question": "Quem foi o artilheiro da Ponte Preta na Copa Sul-Americana de 2013?",
+        "difficulty": 3,
+        "choices": [
+          { "answer": "William", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Rildo", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Roger", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Ferron", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 18,
+        "question": "Em que ano a Ponte Preta disputou sua primeira Série A do Brasileirão?",
+        "difficulty": 2,
+        "choices": [
+          { "answer": "1971", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "1977", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "1981", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "1990", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 19,
+        "question": "Em qual ano a Ponte Preta foi semifinalista do Campeonato Brasileiro?",
+        "difficulty": 3,
+        "choices": [
+          { "answer": "1977", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "1981", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "1995", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "2000", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 20,
+        "question": "Contra qual time a Ponte Preta foi rebaixada pela última vez para a Série B do Campeonato Brasileiro?",
+        "difficulty": 3,
+        "choices": [
+          { "answer": "Vasco", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "América-MG", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Fluminense", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Bahia", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 21,
+        "question": "Qual empresa já foi patrocinadora master da Ponte Preta?",
+        "difficulty": 2,
+        "choices": [
+          { "answer": "Kalunga", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Coca-Cola", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Samsung", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Brahma", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 22,
+        "question": "A Ponte Preta foi o primeiro time do Brasil a…",
+        "difficulty": 2,
+        "choices": [
+          { "answer": "Jogar na Europa", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Utilizar um uniforme preto", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Ter um jogador negro", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Jogar com 12 jogadores", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 23,
+        "question": "Qual é a maior torcida organizada da Ponte Preta?",
+        "difficulty": 2,
+        "choices": [
+          { "answer": "Independente", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Mancha Alvinegra", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Torcida Jovem", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Serponte", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 24,
+        "question": "Qual famoso técnico iniciou sua carreira como jogador na Ponte Preta?",
+        "difficulty": 3,
+        "choices": [
+          { "answer": "Tite", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Muricy Ramalho", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Vanderlei Luxemburgo", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Abel Braga", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      },
+      {
+        "id": 25,
+        "question": "Qual desses títulos a Ponte Preta já conquistou?",
+        "difficulty": 2,
+        "choices": [
+          { "answer": "Copa do Brasil", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Campeonato Paulista", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 },
+          { "answer": "Campeonato Paulista do Interior", "isTrue": true, "isOnHalf": true, "isOnCallHelp": true, "probability": 70 },
+          { "answer": "Copa Libertadores", "isTrue": false, "isOnHalf": false, "isOnCallHelp": false, "probability": 10 }
+        ]
+      }
     ]
   }
 }

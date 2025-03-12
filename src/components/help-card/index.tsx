@@ -63,7 +63,6 @@ const HelperCard: React.FC = () => {
             </Text>
           </View>
         )}
-       <Text>oi</Text>
       </View>
     </View>
   );

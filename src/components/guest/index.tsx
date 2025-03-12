@@ -1,25 +1,21 @@
-import React, { useState } from "react";
-import { Modal, View, Text, TextInput, Button, StyleSheet, TouchableOpacity } from "react-native";
+import React, { useState } from 'react';
+import { Modal, View, Text, TextInput, StyleSheet, TouchableOpacity } from 'react-native';
 
 interface GuestProps {
   open: boolean;
   onClose: () => void;
-  onStartGame: (name: string) => void;
+  onStartGame: (name: string) => void; // Função para iniciar o jogo com o nome do usuário
   display: boolean;
 }
 
 const Guest: React.FC<GuestProps> = ({ open, onClose, onStartGame, display }) => {
-  const [name, setName] = useState("");
+  const [name, setName] = useState('');
 
   const handleStartGame = () => {
     if (name) {
-      onStartGame(name);
+      onStartGame(name); // Passa o nome do usuário para a função onStartGame
       onClose();
     }
-  };
-
-  const handleClose = () => {
-    onClose();
   };
 
   return (
@@ -40,7 +36,7 @@ const Guest: React.FC<GuestProps> = ({ open, onClose, onStartGame, display }) =>
             autoFocus={true}
           />
           <View style={styles.buttonContainer}>
-            <TouchableOpacity style={styles.cancelButton} onPress={handleClose}>
+            <TouchableOpacity style={styles.cancelButton} onPress={onClose}>
               <Text style={styles.buttonText}>Cancelar</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.playButton} onPress={handleStartGame}>
@@ -56,50 +52,47 @@ const Guest: React.FC<GuestProps> = ({ open, onClose, onStartGame, display }) =>
 const styles = StyleSheet.create({
   centeredView: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "rgba(0, 0, 0, 0.5)", // Semi-transparent background
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
   },
   modalView: {
     margin: 20,
-    backgroundColor: "white",
+    backgroundColor: 'white',
     borderRadius: 20,
     padding: 35,
-    alignItems: "center",
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.25,
     shadowRadius: 4,
     elevation: 5,
-    width: "80%", // Adjust width as needed
+    width: '80%',
   },
   modalTitle: {
     marginBottom: 15,
-    textAlign: "center",
+    textAlign: 'center',
     fontSize: 18,
-    fontWeight: "bold",
-    color: "black",
+    fontWeight: 'bold',
+    color: 'black',
   },
   input: {
     height: 40,
-    borderColor: "gray",
+    borderColor: 'gray',
     borderWidth: 1,
     marginBottom: 20,
     padding: 10,
-    width: "100%",
+    width: '100%',
     borderRadius: 5,
-    color: 'black'
+    color: 'black',
   },
   buttonContainer: {
-    flexDirection: "row",
-    justifyContent: "space-around",
-    width: "100%",
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    width: '100%',
   },
   cancelButton: {
-    backgroundColor: "#ccc",
+    backgroundColor: '#ccc',
     borderRadius: 20,
     padding: 10,
     elevation: 2,
@@ -108,7 +101,7 @@ const styles = StyleSheet.create({
     marginRight: 5,
   },
   playButton: {
-    backgroundColor: "#2196F3",
+    backgroundColor: '#ad8056',
     borderRadius: 20,
     padding: 10,
     elevation: 2,
@@ -117,16 +110,16 @@ const styles = StyleSheet.create({
     marginLeft: 5,
   },
   buttonText: {
-    color: "white",
-    fontWeight: "bold",
-    textAlign: "center",
+    color: 'white',
+    fontWeight: 'bold',
+    textAlign: 'center',
   },
   hidden: {
-    display: 'none'
+    display: 'none',
   },
   visible: {
-    display: 'flex'
-  }
+    display: 'flex',
+  },
 });
 
 export default Guest;

@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { Question, Choice } from '../../types/types';
+import { Question } from '../../types/types';
 
 interface QuestionCardProps {
   questions: Question[];
   currentQuestionId: number;
-  questionNumber: number; // Nova prop para o número da questão
+  questionNumber: number;
 }
 
 const QuestionCard: React.FC<QuestionCardProps> = ({ questions, currentQuestionId, questionNumber }) => {
@@ -15,7 +15,7 @@ const QuestionCard: React.FC<QuestionCardProps> = ({ questions, currentQuestionI
     <View style={styles.container}>
       <View style={styles.card}>
         <Text style={styles.questionText}>
-          {questionNumber}) {currentQuestion?.question} {/* Exibir o número da questão */}
+          {questionNumber}) {currentQuestion?.question} {/* Exibe o número e o texto da questão */}
         </Text>
       </View>
     </View>
@@ -24,8 +24,7 @@ const QuestionCard: React.FC<QuestionCardProps> = ({ questions, currentQuestionI
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 20,
-    padding: 10,
+    marginBottom: 20,
   },
   card: {
     backgroundColor: '#fff',

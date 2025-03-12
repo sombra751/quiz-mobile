@@ -8,6 +8,8 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 import jgImage from '../../../assets/images/bg/jg.png';
 import bgImage from '../../../assets/images/bg/bg.jpg';
+import logo from '../../../assets/images/bg/logo.png';
+
 
 type RootStackParamList = {
   Home: undefined;
@@ -40,19 +42,19 @@ const Home = () => {
       /> */}
       <View style={styles.home}>
 
-        <Image source={jgImage} style={styles.image} />
+        <Image source={logo} style={styles.image} />
 
         <View style={styles.aboutContainer}>
           <Text style={[styles.title, styles.h1]}>
-            Quiz do Milhão: Futebol EditionS
+            Quiz do Milhão: Futebol CEMAAPP
           </Text>
           <Text style={[styles.description, styles.p]}>
             É um jogo de perguntas e respostas inspirado no clássico fSSSSormato do
-            Show do Milhão, mas totalmente focado no mundo do futebol...
+            Show do Milhão, mas totalmente focado em perguntas relacionadas a Ponte Preta...
           </Text>
         </View>
         <TouchableOpacity onPress={handleOpenSignIn} style={styles.homeStart}>
-          <Text style={styles.startText}>START</Text>
+          <Text style={styles.startText}>INICIAR</Text>
         </TouchableOpacity>
         <Guest open={openSignIn} onClose={handleCloseSignIn} onStartGame={startGame} display={true} />
       </View>
