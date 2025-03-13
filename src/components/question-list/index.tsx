@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { useRoute, useNavigation, RouteProp, NavigationProp } from '@react-navigation/native';
 import { useDispatch } from 'react-redux';
-import Toast from 'react-native-toast-message';
+// import Toast from 'react-native-toast-message';
 import AlertDialog from '../../components/alert-dialog';
 import { resetChartData } from '../../store/actions';
 import { RootStackParamList } from '../../../app-router';
@@ -38,7 +38,7 @@ const QuestionsList: React.FC<QuestionsListProps> = ({ questions, userName }) =>
   const handleAnswers = (index: number) => {
     setChoice(index);
     if (choices[index].isTrue) {
-      setColor('#57e71d');
+      setColor('#87CEEB');
       setTimeout(() => rightQuestion(), 1000);
     } else {
       setColor('#f60808');
@@ -75,8 +75,8 @@ const QuestionsList: React.FC<QuestionsListProps> = ({ questions, userName }) =>
           <Text style={styles.optionText}>{String.fromCharCode(65 + i)}. {item.answer}</Text>
         </TouchableOpacity>
       ))}
-      <AlertDialog dialog={dialog} score={questionId - 1} onClose={handleCloseDialog} />
-      <Toast />
+      {/* <AlertDialog dialog={dialog} score={questionId - 1} onClose={handleCloseDialog} /> */}
+    
     </View>
   );
 };

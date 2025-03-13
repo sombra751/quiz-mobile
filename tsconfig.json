@@ -1,6 +1,25 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
-  }
+    "strict": true, // Ativa todas as verificações de tipo estritas
+    "jsx": "react-native", // Define o modo JSX para React Native
+    "module": "esnext", // Usa módulos ES
+    "moduleResolution": "node", // Resolve módulos no estilo Node.js
+    "allowJs": true, // Permite a compilação de arquivos JavaScript
+    "skipLibCheck": true, // Ignora a verificação de tipos nas bibliotecas
+    "esModuleInterop": true, // Permite a importação de módulos CommonJS
+    "allowSyntheticDefaultImports": true, // Permite importações sintéticas de módulos sem exportação padrão
+    "forceConsistentCasingInFileNames": true, // Força consistência no uso de maiúsculas/minúsculas em nomes de arquivos
+    "resolveJsonModule": true, // Permite a importação de arquivos JSON
+    "isolatedModules": true, // Garante que cada arquivo seja um módulo independente
+    "noEmit": true, // Não gera arquivos de saída (útil para projetos React Native)
+    "lib": ["dom", "esnext"], // Define as bibliotecas padrão disponíveis
+    "target": "es5", // Define o nível de compatibilidade do JavaScript gerado
+    "baseUrl": ".", // Define o diretório base para resolução de módulos
+    "paths": {
+      "@/*": ["./src/*"] // Define aliases para caminhos de importação
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"], // Inclui todos os arquivos TypeScript e JavaScript
+  "exclude": ["node_modules", "expo", "build", "dist"] // Exclui pastas desnecessárias
 }

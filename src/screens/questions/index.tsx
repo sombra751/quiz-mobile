@@ -38,22 +38,16 @@ const Questions: React.FC = () => {
       style={[styles.container, styles.appBgColor]}
       imageStyle={{ resizeMode: 'cover' }}
     >
-       <View style={styles.overlay} />
-      <View style={styles.container}>
-        <TouchableOpacity style={styles.homeButton} onPress={handleGoHome}>
-          <Icon name="home" size={30} color="white" />
-        </TouchableOpacity>
-        <View style={styles.content}>
-          {questions && (
-            <View style={styles.questionContainer}>
-              <QuestionCard questions={questions} currentQuestionId={questionId} questionNumber={questionId} />
-              <QuestionsList questions={questions} userName={userName} /> {/* Passamos o nome do usuário */}
-            </View>
-          )}
-          <View style={styles.helperContainer}>
-            <HelperCard />
+      <TouchableOpacity style={styles.homeButton} onPress={handleGoHome}>
+        <Icon name="home" size={30} color="white" />
+      </TouchableOpacity>
+      <View style={styles.content}>
+        {questions && (
+          <View style={styles.questionContainer}>
+            <QuestionCard questions={questions} currentQuestionId={questionId} questionNumber={questionId} />
+            <QuestionsList questions={questions} userName={userName} />
           </View>
-        </View>
+        )}
       </View>
     </ImageBackground>
   );

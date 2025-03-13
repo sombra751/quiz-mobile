@@ -1,15 +1,17 @@
 import React from 'react';
 import { Modal, View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { useNavigation } from '@react-navigation/native'; // Importe useNavigation
+import { NavigationProp, useNavigation } from '@react-navigation/native'; // Importe useNavigation
+import { RootStackParamList } from '../../../app-router';
 
 interface Props {
   dialog: boolean;
   score: number;
   onClose: () => void;
 }
+type alertScreenNavigationProp = NavigationProp<RootStackParamList, 'Questions'>;
 
 const ErrorDialog: React.FC<Props> = ({ dialog, score, onClose }) => {
-  const navigation = useNavigation(); // Use useNavigation
+  const navigation = useNavigation<alertScreenNavigationProp>();
 
   const handleWrongQuestion = () => {
     onClose();
