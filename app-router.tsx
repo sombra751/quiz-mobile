@@ -6,7 +6,6 @@ import Home from './src/screens/home';
 import Questions from './src/screens/questions';
 import { Finish } from './src/screens/finish';
 
-// Importe o Reanimated e inicialize-o no início do arquivo
 
 
 export type RootStackParamList = {

@@ -1,7 +1,6 @@
 import { Text, View } from 'react-native';
 import { NavigationProp, useNavigation, useRoute } from '@react-navigation/native';
 import { Button } from '../../components/Button';
-import { Stars } from '../../components/Stars';
 import { styles } from './styles';
 import { RootStackParamList } from '../../../app-router'; // Importe o RootStackParamList
 
